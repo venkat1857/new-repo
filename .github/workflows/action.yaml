@@ -1,7 +1,6 @@
 name: "Config-Checkout"
 
-on:
-  workflow_call:
+on: push
 
 jobs:
   checkout:
