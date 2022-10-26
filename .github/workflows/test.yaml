@@ -1,0 +1,10 @@
+name: Runs on self-hosted runner
+
+on: push
+
+jobs: 
+  init:
+    runs-on: self-hosted
+    steps:
+      - run: echo "Hello Tatacliq"
+      - run: echo "$HOSTNAME"
